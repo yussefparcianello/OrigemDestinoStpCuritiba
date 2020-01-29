@@ -21,7 +21,6 @@
 ## Dicionário de dados das tabelas utilizadas pelo protótipo
 | Tabela | Campo | Descrição |
 | :--- | :--- | :--- |
-| <td colspan="3"> rois </td> |
 | rois | id | Identificador da tupla |
 | rois | lat | Coordenada de latitude (SRID 4326) |
 | rois | lng | Coordenada de longitude (SRID 4326) |
