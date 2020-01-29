@@ -15,4 +15,4 @@ Protótipo de visualização de dados de Origem-Destino do Sistema de Transporte
 
 + **bd_pontos_de_onibus.php**: contém o script escrito em linguagem PHP responsável por montar sentença SQL responsável buscar na tabela transporte_dinamico.yp_pontos_onibus os dados referentes aos pontos de ônibus do STP de Curitiba
 
-+ **index_main.php**: é arquivo mais importante da aplicação. Nele está contida toda a lógica de programação referente a criação dos gráficos, criação do mapa e também das camadas que podem ser adicionadas e removidas do mapa. As consultas quando disparadas são realizadas via chamada __Query.ajax__, a qual requisita os arquivos __bd_XXXXXX.php__ para obter os dados armazenados na base.
++ **index_main.php**: é arquivo mais importante da aplicação. Nele está contida toda a lógica de programação referente a criação dos gráficos, criação do mapa e também das camadas que podem ser adicionadas e removidas do mapa. As consultas quando disparadas são realizadas via chamada _Query.ajax_, a qual requisita os arquivos _bd_XXXXXX.php_ para obter os dados armazenados na base.
