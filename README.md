@@ -24,48 +24,35 @@ Protótipo de visualização de dados de Origem-Destino do Sistema de Transporte
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
-
-
-\hline
-\multicolumn{1}{|c|}{\textbf{Tabela}}           & \multicolumn{1}{c|}{\textbf{Campo}} & \multicolumn{1}{c|}{\textbf{Descrição}}        \\ \hline
-\multicolumn{1}{|c|}{\multirow{4}{*}{rois}} & id                                  & Identificador da tupla                         \\ \cline{2-3} 
-\multicolumn{1}{|c|}{}                          & lat                                 & Coordenada de latitude (SRID 4326)             \\ \cline{2-3} 
-\multicolumn{1}{|c|}{}                          & lng                                 & Coordenada de longitude (SRID 4326)            \\ \cline{2-3} 
-\multicolumn{1}{|c|}{}                          & geom                                & Geometria (SRID 29192)                         \\ \hline
-
-%\multicolumn{1}{|c|}{\textbf{Tabela}}           & \multicolumn{1}{c|}{\textbf{Campo}} & \multicolumn{1}{c|}{\textbf{Descrição}}        \\ \hline
-\multirow{4}{*}{pontos\_onibus}             & id                                  & Identificador da tupla                         \\ \cline{2-3} 
-                                                & lat                                 & Coordenada de latitude (SRID 4326)             \\ \cline{2-3} 
-                                                & lng                                 & Coordenada de longitude (SRID 4326)            \\ \cline{2-3} 
-                                                & geom                                & Geometria (SRID 29192)                         \\ \hline
-
-%\multicolumn{1}{|c|}{\textbf{Tabela}}           & \multicolumn{1}{c|}{\textbf{Campo}} & \multicolumn{1}{c|}{\textbf{Descrição}}        \\ \hline
-\multirow{5}{*}{terminais}                  & id                                  & Identificador da tupla                         \\ \cline{2-3} 
-                                                & nome                                & Descrição do terminal                          \\ \cline{2-3} 
-                                                & lat                                 & Coordenada de latitude (SRID 4326)             \\ \cline{2-3} 
-                                                & lng                                 & Coordenada de longitude (SRID 4326)            \\ \cline{2-3} 
-                                                & geom                                & Geometria (SRID 29192)                         \\ \hline
-
-%\multicolumn{1}{|c|}{\textbf{Tabela}}           & \multicolumn{1}{c|}{\textbf{Campo}} & \multicolumn{1}{c|}{\textbf{Descrição}}        \\ \hline
-\multirow{18}{*}{movimentacao}              & codlinha                            & Código da linha operada pelo ônibus            \\ \cline{2-3} 
-                                                & nomelinha                           & Nome da linha operada pelo ônibus              \\ \cline{2-3} 
-                                                & codveiculo                          & Código do veículo em operação                  \\ \cline{2-3} 
-                                                & cartao\_numero                      & Número do cartão do passageiro                 \\ \cline{2-3} 
-                                                & cartao\_datahora                    & Data-hora do uso do cartão do passageiro       \\ \cline{2-3} 
-                                                & cartao\_data                        & Data do uso do cartão do passageiro            \\ \cline{2-3} 
-                                                & cartao\_hora                        & Hora do uso do cartão do passageiro            \\ \cline{2-3} 
-                                                & cartao\_data\_nascimento            & Data de nascimento do passageiro               \\ \cline{2-3} 
-                                                & cartao\_sexo                        & Sexo do passageiro                             \\ \cline{2-3} 
-                                                & origem\_lat                         & Coordenada de latitude da origem (SRID 4326)   \\ \cline{2-3} 
-                                                & origem\_lng                         & Coordenada de longitude da origem (SRID 4326)  \\ \cline{2-3} 
-                                                & origem\_datahora                    & Data-hora do embarque                          \\ \cline{2-3} 
-                                                & destino\_lat                        & Coordenada de latitude do destino (SRID 4326)  \\ \cline{2-3} 
-                                                & destino\_lng                        & Coordenada de longitude do destino (SRID 4326) \\ \cline{2-3} 
-                                                & destino\_datahora                   & Data-hora do desembarque                       \\ \cline{2-3} 
-                                                & origem                              & Geometria do ponto de origem (SRID 29192)      \\ \cline{2-3} 
-                                                & destino                             & Geometria do ponto de destino (SRID 29192)     \\ \cline{2-3} 
-                                                & idade                               & Idade do passageiro                            \\ \hline
-%\end{tabular}
-\end{tabular}%
-}
-\end{table}
+| Tabela | Campo | Descrição |
+| rois | id | Identificador da tupla |
+| rois | lat | Coordenada de latitude (SRID 4326) |
+| rois | lng | Coordenada de longitude (SRID 4326) |
+| rois | geom | Geometria
+| pontos_onibus | id | Identificador da tupla
+| pontos_onibus | lat | Coordenada de latitude (SRID 4326) |
+| pontos_onibus | lng | Coordenada de longitude (SRID 4326) |
+| pontos_onibus | geom | Geometria (SRID 29192)|
+| terminais | id | Identificador da tupla |
+| terminais | nome | Descrição do terminal |
+| terminais | lat | Coordenada de latitude (SRID 4326) |
+| terminais | lng | Coordenada de longitude (SRID 4326) |
+| terminais | geom | Geometria (SRID 29192) |
+| movimentacao | codlinha | Código da linha operada pelo ônibus |
+| movimentacao | nomelinha | Nome da linha operada pelo ônibus |
+| movimentacao | codveiculo | Código do veículo em operação |
+| movimentacao | cartao_numero | Número do cartão do passageiro |
+| movimentacao | cartao_datahora | Data-hora do uso do cartão do passageiro |
+| movimentacao | cartao_data | Data do uso do cartão do passageiro |
+| movimentacao | cartao_hora | Hora do uso do cartão do passageiro | 
+| movimentacao | cartao_data_nascimento | Data de nascimento do passageiro | 
+| movimentacao | cartao_sexo | Sexo do passageiro | 
+| movimentacao | origem_lat | Coordenada de latitude da origem (SRID 4326) | 
+| movimentacao | origem_lng | Coordenada de longitude da origem (SRID 4326) | 
+| movimentacao | origem_datahora | Data-hora do embarque |
+| movimentacao | destino_lat | Coordenada de latitude do destino (SRID 4326) | 
+| movimentacao | destino_lng | Coordenada de longitude do destino (SRID 4326) |
+| movimentacao | destino_datahora | Data-hora do desembarque |
+| movimentacao | origem | Geometria do ponto de origem (SRID 29192) |
+| movimentacao | destino | Geometria do ponto de destino (SRID 29192) |
+| movimentacao | idade | Idade do passageiro | 
