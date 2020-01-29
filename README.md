@@ -1,5 +1,5 @@
-# OrigemDestinoStpCuritiba
-Protótipo de visualização de dados de Origem-Destino do Sistema de Transporte Público de Curitiba
+# Protótipo de visualização de Origem-Destino
+<img src="../OrigemDestinoStpCuritiba/images/fig02.jpg">
 
 
 ## Principais arquivos da aplicação
