@@ -1,5 +1,5 @@
 # Protótipo de visualização de Origem-Destino
-<img src="../OrigemDestinoStpCuritiba/images/fig02.jpg">
+<img src="https://raw.githubusercontent.com/yussefparcianello/OrigemDestinoStpCuritiba/master/images/fig02.jpg">
 
 
 ## Principais arquivos da aplicação
