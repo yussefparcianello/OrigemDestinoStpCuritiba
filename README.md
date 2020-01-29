@@ -19,12 +19,13 @@ Protótipo de visualização de dados de Origem-Destino do Sistema de Transporte
 
 
 ## Dicionário de dados das tabelas utilizadas pelo protótipo
-|   Esquerda   |  Centralizado  |    Direita    |
+|   Esquerda   |  Centralizado |    Direita    |
 | :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| git status   | git status     | git status   |
+| git diff     | git diff    | git diff      |
 
 | Tabela | Campo | Descrição |
+| :---         |     :---:      |          ---: |
 | rois | id | Identificador da tupla |
 | rois | lat | Coordenada de latitude (SRID 4326) |
 | rois | lng | Coordenada de longitude (SRID 4326) |
