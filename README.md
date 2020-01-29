@@ -19,7 +19,6 @@ Protótipo de visualização de dados de Origem-Destino do Sistema de Transporte
 
 
 ## Dicionário de dados das tabelas utilizadas pelo protótipo
-| :---: | :---: | :---: |
 | Tabela | Campo | Descrição |
 | :--- | :--- | :--- |
 | rois | id | Identificador da tupla |
