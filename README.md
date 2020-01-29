@@ -19,11 +19,6 @@ Protótipo de visualização de dados de Origem-Destino do Sistema de Transporte
 
 
 ## Dicionário de dados das tabelas utilizadas pelo protótipo
-|   Esquerda   |  Centralizado |    Direita    |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status   |
-| git diff     | git diff    | git diff      |
-
 | Tabela | Campo | Descrição |
 | :---         |     :---:      |          ---: |
 | rois | id | Identificador da tupla |
