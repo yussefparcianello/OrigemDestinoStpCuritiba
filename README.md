@@ -1,6 +1,6 @@
 # Protótipo de visualização de Origem-Destino do Sistema de Transporte Público
 <img src="https://raw.githubusercontent.com/yussefparcianello/OrigemDestinoStpCuritiba/master/images/fig02.jpg">
-[![Clique aqui para visualizar o protótipo em funcionamento]()](https://www.youtube.com/watch?v=KOzFHRc7lXA)
+https://www.youtube.com/watch?v=KOzFHRc7lXA
 
 ## Principais arquivos da aplicação
 + **index.php**: é o arquivo inicial da aplicação. É responsável por dividir a interface de usuário verticalmente ao meio, estabelecendo à esquerda da tela a região do mapa e do menu, e à direita da tela a região dos gráficos
